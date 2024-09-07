@@ -37,7 +37,8 @@ function App() {
       <h1>Dictionary App</h1>
       <input type="text" onChange={HandleChange}/>
       <button type="submit" onClick={HandleClick}>Search</button>
-      <h3>Definition:{Defination}</h3><br/>
+      <h3>Definition:</h3>
+      <p>{Defination}</p>
 
     </div>
   );
