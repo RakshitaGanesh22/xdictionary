@@ -34,10 +34,10 @@ function App() {
   }
   return (
     <div className="App">
+      <h1>Dictionary App</h1>
       <input type="text" onChange={HandleChange}/>
       <button type="submit" onClick={HandleClick}>Search</button>
-      <h3>Defination:</h3><br/>
-      <p>{Defination}</p>
+      <h3>Definition:{Defination}</h3><br/>
 
     </div>
   );
